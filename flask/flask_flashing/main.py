@@ -2,7 +2,7 @@ from flask import Flask,flash,render_template,redirect
 
 app = Flask(__name__)
 
-app.secret_key = "3r25n2mn52m453nghvj"
+app.secret_key = "Your_secreat_key"
 
 @app.route("/")
 def hello_world():
